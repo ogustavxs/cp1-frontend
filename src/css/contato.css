@@ -1,0 +1,66 @@
+main {
+  margin: 15px 0;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#formulario {
+  background-color: #F0E2CA;
+  padding: 5px;
+}
+
+#formulario form .form-group {
+  margin: 20px;
+}
+
+#formulario form .form-group label {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+#formulario form .form-group input,
+#formulario form .form-group textarea {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.397);
+  color: #252b2e;
+  font-size: 14px;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  width: 450px;
+}
+
+#formulario form .form-group textarea {
+  height: 250px;
+}
+
+#formulario form button {
+  background-color: #ebdabd;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+  margin-bottom: 20px;
+  padding: 8px;
+  text-transform: uppercase;
+  width: 450px;
+}
+
+#contato {
+  margin: 15px;
+}
+
+#contato .contato-box {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+#contato .contato-box img {
+  width: 30px;
+}
