@@ -59,3 +59,34 @@ main .highlight-item button {
     border-radius: 3px;
     cursor: pointer;
 }
+
+main .about-us {
+    text-align: center;
+    margin: 40px auto;
+}
+
+main .about-us h2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 380px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .about-us a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .about-us button {
+    background-color: #F0E2CA;
+    color: #131719;
+    border: solid 1px #131719;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 9px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
