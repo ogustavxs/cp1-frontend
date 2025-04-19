@@ -20,7 +20,7 @@ main .highlights {
     margin: 40px 406px;
 }
 
-main #highlight-left {
+main .highlight-left {
     margin-right: 50px;
 }
 
