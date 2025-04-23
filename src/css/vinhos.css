@@ -46,3 +46,53 @@ main .search-box button {
     cursor: pointer;
     font-size: 17px;
 }
+
+table {
+    margin: 0 auto;
+    border-spacing: 50px 0;
+    margin-bottom: 50px;
+}
+
+table td {
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: #ffdb9d;
+}
+
+table td img {
+    height: 150px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+table aside h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+table aside p {
+    color: #131719c8;
+}
+
+table aside h4 {
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    color: #654b1f;
+}
+
+table aside button {
+    background-color: #ffffff;
+    border: 1px solid #8c6010;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+table aside a {
+    text-decoration: none;
+    color: #131719;
+}
