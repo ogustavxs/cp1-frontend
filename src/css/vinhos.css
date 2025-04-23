@@ -1,0 +1,98 @@
+main .title-box {
+    padding: 30px 20px;
+}
+
+main .title-box h1  {
+    font-size: 40px;
+    font-weight: 500;
+    color: #e8ad46;
+    text-align: center;
+}
+
+main .search-box {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+main .search-box label {
+    font-size: 20px;
+}
+
+main .search-box select {
+    border: none;
+    background-color: #F9F4EB;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    font-size: 19px;
+    margin-right: 20px;
+}
+
+main .search-box input {
+    background-color: #F9F4EB;
+    border: solid 1px #131719;
+    padding: 5.7px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main .search-box button {
+    background-color: #e8ad46;
+    border: 1px solid #131719;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 50px 0;
+    margin-bottom: 50px;
+}
+
+table td {
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: #ffdb9d;
+}
+
+table td img {
+    height: 150px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+table aside h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+table aside p {
+    color: #131719c8;
+}
+
+table aside h4 {
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    color: #654b1f;
+}
+
+table aside button {
+    background-color: #ffffff;
+    border: 1px solid #8c6010;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+table aside a {
+    text-decoration: none;
+    color: #131719;
+}
