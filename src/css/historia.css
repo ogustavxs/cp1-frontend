@@ -22,7 +22,7 @@ p {
 }
 
 #imagens .img-box img {
-    width: 700px;
+    width: 570px;
 }
 
 #historia {
@@ -33,7 +33,7 @@ p {
 #historia .historia-box {
     display: inline-block;
     margin: 25px;
-    width: 700px;
+    width: 540px;
 }
 
 #historia .historia-box p {
