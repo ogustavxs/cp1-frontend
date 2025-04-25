@@ -1,0 +1,30 @@
+main {
+    margin: 15px 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;  
+}
+
+#imagens {
+    padding: 20px;
+}
+
+#imagens .img-box {
+    background-color: #e8ad46;
+    margin: 0 25px;
+    display: inline-block;    
+}
+
+#equipe .equipe-box {
+    background-color: #F0E2CA;
+    display: inline-block;
+    margin: 25px;
+    width: 700px;
+}
