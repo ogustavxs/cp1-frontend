@@ -8,9 +8,15 @@ body {
     background-color: #F9F4EB;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #131719;
+
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
     padding: 20px;
     font-size: 20px;
@@ -28,13 +34,9 @@ header p {
 }
 
 header ul {
-    margin-top: 30px;
     list-style-type: none;
-}
-
-header ul li {
-    display: inline;
-    margin: 0 15px;
+    display: flex;
+    gap: 20px;
 }
 
 header ul li a {
