@@ -45,6 +45,10 @@ header ul li a {
     font-size: 18px;
 }
 
+header ul li a:hover {
+    color: #5b4e36;
+}
+
 footer {
     background-color: #F0E2CA;
 }
