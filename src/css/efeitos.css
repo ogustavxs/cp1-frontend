@@ -1,0 +1,27 @@
+/*Vinhos*/
+
+.tipo select:hover {
+    border: 1px solid #1317193a;
+    border-radius: 6px;
+    background-color: #F9F4EB;
+}
+
+.busca input:focus {
+    background-color: #ffe7ba;
+}
+
+.tabela-vinhos .vinho h2::selection {
+    background-color: #4e0000;
+    color: #F9F4EB;
+}
+
+.tabela-vinhos .vinho:hover {
+    background-color: #fff6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.tabela-vinhos .vinho button:hover {
+    transform: scale(0.99);
+    transition: all 0.1s;
+}
