@@ -29,9 +29,10 @@ O site é composto por cinco páginas principais:
 
 - Daniel  
 - Gabriel Speck  
-- Gustavo Pessoa  
+- Paulo Gustavo  
 - Marcos
+- Rone Cruz
 
 ## 🔗 Site publicado
 
-Acesse o site pelo GitHub Pages: [Link para o site](https://ogustavxs.github.io/cp1-frontend/)
+Acesse o site pelo GitHub Pages: [Link para o site](https://ogustavxs.github.io/cp2-frontend/)
