@@ -1,6 +1,8 @@
 main {
   margin: 15px 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
@@ -12,16 +14,26 @@ h2 {
 #formulario {
   background-color: #F0E2CA;
   padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 #formulario form .form-group {
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 #formulario form .form-group label {
-  display: block;
   font-size: 18px;
-  padding-bottom: 5px;
 }
 
 #formulario form .form-group input,
@@ -33,12 +45,12 @@ h2 {
   font-size: 14px;
   outline: none;
   padding: 10px;
-  resize: none;
   width: 450px;
 }
 
 #formulario form .form-group textarea {
   height: 250px;
+  resize: none;
 }
 
 #formulario form button {
@@ -50,15 +62,29 @@ h2 {
   padding: 8px;
   text-transform: uppercase;
   width: 450px;
+  cursor: pointer;
 }
 
 #contato {
-  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
-#contato .contato-box {
-  display: inline-block;
-  margin: 0 25px;
+#contato .contatos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#contato .contatos .contato-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 #contato .contato-box img {
