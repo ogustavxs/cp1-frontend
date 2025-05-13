@@ -1,3 +1,50 @@
+/* contatos */
+
+#formulario h2::after,
+#contato h2::after{
+  content: "";
+  display: block;
+  width: 75px;
+  height: 3px;
+  background-color: #4e0000;
+  margin-top: 2px;
+}
+
+#formulario form .form-group input,
+#formulario form .form-group textarea {
+  transition: all 0.3s;
+}
+
+#formulario form .form-group input:hover,
+#formulario form .form-group textarea:hover {
+  background-color: #ffffffbd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+}
+
+#formulario form .form-group input:focus,
+#formulario form .form-group textarea:focus {
+  background-color: #ffffffbd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+}
+
+#formulario form .form-group input::placeholder,
+#formulario form .form-group textarea::placeholder {
+  color: #4e000069;
+}
+
+#formulario form button {
+  transition: all 0.3s;
+}
+
+#formulario form button:hover {
+  transform: scale(1.01);
+  background-color: #d6c2a3;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+}
+
+#contato .contatos .contato-box:nth-child(odd){
+  font-weight: bold;
+
 /*Vinhos*/
 
 .tipo select:hover {
