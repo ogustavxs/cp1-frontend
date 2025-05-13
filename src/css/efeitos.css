@@ -1,3 +1,14 @@
+/* Historia */
+
+#historia h2::after {
+  display: block;
+  content: "";
+  background-color: black;
+  width: 140px;
+  height: 3px;
+  margin: 2px auto;
+}
+
 /* contatos */
 
 #formulario h2::after,
