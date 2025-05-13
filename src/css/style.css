@@ -50,6 +50,12 @@ header {
   top: 0;
   background-color: #f9f4eb;
 }
+
+header h1 {
+  opacity: 0;
+  animation: aparecer 1.2s ease-out forwards;
+}
+
 header p {
   font-style: italic;
 }
