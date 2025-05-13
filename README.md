@@ -20,6 +20,16 @@ O site é composto por cinco páginas principais:
 - **Equipe (`equipe.html`)**: Apresenta os membros da equipe da vinheria.
 - **Contato (`contato.html`)**: Disponibiliza um formulário para contato e informações como telefone, e-mail e endereço físico.
 
+## 🤖 Efeitos
+
+Este projeto utiliza diversos efeitos de CSS para melhorar a experiência do usuário:
+
+- **Pseudo-classes**: `:hover`, `:focus`, `:nth-child()`
+- **Pseudo-elementos**: `::after`, `::selection`
+- **Animações**: Animação `aparecer` aplicada no header das paginas para entrada suave da logo
+- **Transições**: Usadas em inputs, botões e cards de vinho para interações com o mouse
+- **Transformações**: `scale()` e `translateY()` aplicadas
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** — estruturação das páginas.
