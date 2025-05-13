@@ -49,26 +49,25 @@ header {
   position: sticky;
   top: 0;
   background-color: #f9f4eb;
+}
+header p {
+  font-style: italic;
+}
 
-  & p {
-    font-style: italic;
-  }
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
 
-  & ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-  }
+header ul li a {
+  text-decoration: none;
+  color: #131719;
+  font-size: 18px;
+}
 
-  & li a {
-    text-decoration: none;
-    color: #131719;
-    font-size: 18px;
-  }
-
-  & ul li a:hover {
-    color: #5b4e36;
-  }
+header ul li a:hover {
+  color: #5b4e36;
 }
 
 footer {

@@ -32,12 +32,6 @@ main .banner {
   align-items: center;
 }
 
-@media (max-width: 768px) {
-  .box-items {
-    flex-direction: column;
-  }
-}
-
 .box-items {
   display: flex;
   align-items: center;
@@ -55,13 +49,13 @@ main .banner {
 
   text-align: center;
   border-radius: 3px;
+}
 
-  & img {
-    height: 150px;
-  }
-  & p {
-    text-wrap: nowrap;
-  }
+.product-item img {
+  height: 150px;
+}
+.product-item p {
+  text-wrap: nowrap;
 }
 
 .product-item button {
@@ -79,22 +73,22 @@ main .banner {
 .about-us {
   text-align: center;
   margin: 0px auto 40px;
+}
 
-  & h2 {
-    display: inline-block;
-    vertical-align: middle;
-    width: 380px;
-    font-size: 20px;
-    font-weight: 600;
-  }
+.about-us h2 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 380px;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-  & button {
-    background-color: #f0e2ca;
-    border: solid 1px #131719;
-    font-size: 18px;
-    padding: 9px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
+.about-us button {
+  background-color: #f0e2ca;
+  border: solid 1px #131719;
+  font-size: 18px;
+  padding: 9px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
 }
