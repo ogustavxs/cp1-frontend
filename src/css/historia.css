@@ -8,17 +8,12 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
-    margin-bottom: 20px;  
-}
-
 #imagens {
     padding: 20px;
-}
-
-#imagens .img-box {
-    margin: 0 25px;
-    display: inline-block;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
 }
 
 #imagens .img-box img {
@@ -27,17 +22,20 @@ p {
 
 #historia {
     background-color: #F0E2CA;
-    padding: 55px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 #historia .historia-box {
-    display: inline-block;
-    margin: 25px;
-    width: 540px;
+    width: 650px;
+    height: 300px;
 }
 
 #historia .historia-box p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #video {
