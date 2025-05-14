@@ -1,3 +1,14 @@
+/* equipe */
+
+#equipe .equipe-box p::first-line{
+    color: brown;
+}
+
+@keyframes aparecerSubTitulo {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
 /* Historia */
 
 #historia h2::after {
