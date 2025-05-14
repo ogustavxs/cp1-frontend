@@ -10,7 +10,7 @@ h2 {
 
 #equipe .equipe-box h2 {
     animation-duration: 2s;
-    animation-name: aparecer;
+    animation-name: aparecerSubTitulo;
     animation-iteration-count: 1;
 }
 
